@@ -13,7 +13,7 @@ We provide a pretrained tagger checkpoint that you can use in the folder `checkp
 ```
 python main.py \
     --do_predict \
-    --checkpoint checkpoint \
+    --checkpoint models/checkpoint \
     --sentence 'ginagamit ang matematika sa agham .'
 ```
 This should give you the following output:
@@ -36,7 +36,7 @@ You can train a tagger using the following command:
 ```
 python main.py \
     --do_train \
-    --checkpoint checkpoint \
+    --checkpoint models/checkpoint \
     --train_data data/train_text.txt \
     --train_tags data/train_tags.txt \
     --evaluation_data data/eval_text.txt \
