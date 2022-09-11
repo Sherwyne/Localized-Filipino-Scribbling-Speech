@@ -1,0 +1,20 @@
+python main.py \
+    --do_train \
+    --checkpoint checkpoint \
+    --train_data data/train_text.txt \
+    --train_tags data/train_tags.txt \
+    --evaluation_data data/eval_text.txt \
+    --evaluation_tags data/eval_tags.txt \
+    --embedding_dim 100 \
+    --bidirectional \
+    --num_layers 2 \
+    --recur_dropout 0.05 \
+    --hidden_dim 128 \
+    --dropout 0.25 \
+    --min_freq 2 \
+    --msl 128 \
+    --bs 128 \
+    --learning_rate 0.01 \
+    --weight_decay 0.0 \
+    --epochs 5 \
+    --overwrite_save_directory

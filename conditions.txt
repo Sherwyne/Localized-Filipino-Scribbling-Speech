@@ -1,0 +1,20 @@
+Pangngalan (NN*)
+- this will be the scribbles generated
+
+Panahon (RBW)
+- gabi-gabi
+- araw-araw
+
+Counting, Ranking (PRI,CDB,JJN)
+- (1-9) only
+- can't detect > 10
+- (DTCP,PRI) indefinite count of objects
+
+Place and Positioning Order (RBL, JJD)
+- bahay,lupa
+- itaas,ibaba,kaliwa,kanan,likod,harap
+
+Commanding
+- Place + Description
+- ['RBL_CCP', 'NNP']
+- papuntang kanan
