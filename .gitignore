@@ -1,1 +1,3 @@
 epub-files
+*.json
+.quickdrawcache
